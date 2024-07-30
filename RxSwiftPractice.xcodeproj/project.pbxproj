@@ -13,6 +13,18 @@
 		BCCB4C9E2C58757B00B4B950 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCCB4C9D2C58757B00B4B950 /* Base */; };
 		BCCB4CA02C58757C00B4B950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB4C9F2C58757C00B4B950 /* Assets.xcassets */; };
 		BCCB4CA32C58757C00B4B950 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCCB4CA22C58757C00B4B950 /* Base */; };
+		BCCB4CAC2C5875C900B4B950 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BCCB4CAB2C5875C900B4B950 /* RxCocoa */; };
+		BCCB4CAE2C5875C900B4B950 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BCCB4CAD2C5875C900B4B950 /* RxSwift */; };
+		BCCB4CB92C587B0100B4B950 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BCCB4CB82C587B0100B4B950 /* SnapKit */; };
+		BCCB4CBB2C58AC9E00B4B950 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CBA2C58AC9E00B4B950 /* BasicButtonViewController.swift */; };
+		BCCB4CBD2C58C06A00B4B950 /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CBC2C58C06A00B4B950 /* OperatorViewController.swift */; };
+		BCCB4CBF2C58C2B700B4B950 /* assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CBE2C58C2B700B4B950 /* assignment.swift */; };
+		BCCB4CC22C58D29200B4B950 /* ExamPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CC12C58D29200B4B950 /* ExamPickerViewController.swift */; };
+		BCCB4CC52C58D92600B4B950 /* ExamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CC42C58D92600B4B950 /* ExamTableViewController.swift */; };
+		BCCB4CC72C58DC3B00B4B950 /* ExamSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CC62C58DC3B00B4B950 /* ExamSwitchViewController.swift */; };
+		BCCB4CC92C58DE9500B4B950 /* ExamCombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CC82C58DE9500B4B950 /* ExamCombineViewController.swift */; };
+		BCCB4CCC2C58E1FE00B4B950 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CCB2C58E1FE00B4B950 /* UIViewController+Extension.swift */; };
+		BCCB4CD02C58E3E600B4B950 /* ExamObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB4CCF2C58E3E600B4B950 /* ExamObservableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,15 @@
 		BCCB4C9F2C58757C00B4B950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCB4CA22C58757C00B4B950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCB4CA42C58757C00B4B950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB4CBA2C58AC9E00B4B950 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
+		BCCB4CBC2C58C06A00B4B950 /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		BCCB4CBE2C58C2B700B4B950 /* assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment.swift; sourceTree = "<group>"; };
+		BCCB4CC12C58D29200B4B950 /* ExamPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPickerViewController.swift; sourceTree = "<group>"; };
+		BCCB4CC42C58D92600B4B950 /* ExamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamTableViewController.swift; sourceTree = "<group>"; };
+		BCCB4CC62C58DC3B00B4B950 /* ExamSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamSwitchViewController.swift; sourceTree = "<group>"; };
+		BCCB4CC82C58DE9500B4B950 /* ExamCombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCombineViewController.swift; sourceTree = "<group>"; };
+		BCCB4CCB2C58E1FE00B4B950 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BCCB4CCF2C58E3E600B4B950 /* ExamObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamObservableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCB4CB92C587B0100B4B950 /* SnapKit in Frameworks */,
+				BCCB4CAE2C5875C900B4B950 /* RxSwift in Frameworks */,
+				BCCB4CAC2C5875C900B4B950 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,8 @@
 		BCCB4C952C58757B00B4B950 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				BCCB4CC32C58D4AB00B4B950 /* Lecture */,
+				BCCB4CC02C58D1D800B4B950 /* Assignment */,
 				BCCB4C962C58757B00B4B950 /* AppDelegate.swift */,
 				BCCB4C982C58757B00B4B950 /* SceneDelegate.swift */,
 				BCCB4C9A2C58757B00B4B950 /* ViewController.swift */,
@@ -65,6 +91,53 @@
 				BCCB4CA42C58757C00B4B950 /* Info.plist */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		BCCB4CC02C58D1D800B4B950 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB4CBE2C58C2B700B4B950 /* assignment.swift */,
+				BCCB4CCD2C58E3B900B4B950 /* example2 */,
+				BCCB4CCE2C58E3D000B4B950 /* example3 */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		BCCB4CC32C58D4AB00B4B950 /* Lecture */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB4CBA2C58AC9E00B4B950 /* BasicButtonViewController.swift */,
+				BCCB4CBC2C58C06A00B4B950 /* OperatorViewController.swift */,
+			);
+			path = Lecture;
+			sourceTree = "<group>";
+		};
+		BCCB4CCA2C58E1F000B4B950 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB4CCB2C58E1FE00B4B950 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BCCB4CCD2C58E3B900B4B950 /* example2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB4CCA2C58E1F000B4B950 /* Extension */,
+				BCCB4CC12C58D29200B4B950 /* ExamPickerViewController.swift */,
+				BCCB4CC42C58D92600B4B950 /* ExamTableViewController.swift */,
+				BCCB4CC62C58DC3B00B4B950 /* ExamSwitchViewController.swift */,
+				BCCB4CC82C58DE9500B4B950 /* ExamCombineViewController.swift */,
+			);
+			path = example2;
+			sourceTree = "<group>";
+		};
+		BCCB4CCE2C58E3D000B4B950 /* example3 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB4CCF2C58E3E600B4B950 /* ExamObservableViewController.swift */,
+			);
+			path = example3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +156,11 @@
 			dependencies = (
 			);
 			name = RxSwiftPractice;
+			packageProductDependencies = (
+				BCCB4CAB2C5875C900B4B950 /* RxCocoa */,
+				BCCB4CAD2C5875C900B4B950 /* RxSwift */,
+				BCCB4CB82C587B0100B4B950 /* SnapKit */,
+			);
 			productName = RxSwiftPractice;
 			productReference = BCCB4C932C58757B00B4B950 /* RxSwiftPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +189,10 @@
 				Base,
 			);
 			mainGroup = BCCB4C8A2C58757B00B4B950;
+			packageReferences = (
+				BCCB4CAA2C5875C900B4B950 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				BCCB4CB72C587B0100B4B950 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = BCCB4C942C58757B00B4B950 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +220,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCB4CBD2C58C06A00B4B950 /* OperatorViewController.swift in Sources */,
+				BCCB4CCC2C58E1FE00B4B950 /* UIViewController+Extension.swift in Sources */,
 				BCCB4C9B2C58757B00B4B950 /* ViewController.swift in Sources */,
+				BCCB4CD02C58E3E600B4B950 /* ExamObservableViewController.swift in Sources */,
+				BCCB4CC52C58D92600B4B950 /* ExamTableViewController.swift in Sources */,
 				BCCB4C972C58757B00B4B950 /* AppDelegate.swift in Sources */,
 				BCCB4C992C58757B00B4B950 /* SceneDelegate.swift in Sources */,
+				BCCB4CC92C58DE9500B4B950 /* ExamCombineViewController.swift in Sources */,
+				BCCB4CBF2C58C2B700B4B950 /* assignment.swift in Sources */,
+				BCCB4CC22C58D29200B4B950 /* ExamPickerViewController.swift in Sources */,
+				BCCB4CC72C58DC3B00B4B950 /* ExamSwitchViewController.swift in Sources */,
+				BCCB4CBB2C58AC9E00B4B950 /* BasicButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +397,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tunastorm.RxSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +428,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tunastorm.RxSwiftPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +460,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCCB4CAA2C5875C900B4B950 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		BCCB4CB72C587B0100B4B950 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCCB4CAB2C5875C900B4B950 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCCB4CAA2C5875C900B4B950 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		BCCB4CAD2C5875C900B4B950 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCCB4CAA2C5875C900B4B950 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		BCCB4CB82C587B0100B4B950 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCCB4CB72C587B0100B4B950 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCCB4C8B2C58757B00B4B950 /* Project object */;
 }

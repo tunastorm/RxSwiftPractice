@@ -23,7 +23,7 @@ final class ExamObservableViewController: UIViewController {
         examJust()
         examOf()
         examFrom()
-       
+        examTake()
     }
     
     private func examJust() {
