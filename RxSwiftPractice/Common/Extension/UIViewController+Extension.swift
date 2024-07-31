@@ -10,7 +10,7 @@ import UIKit
 extension UIViewController {
     
     func showAlert(style: UIAlertController.Style, title: String, message: String,
-                   completionHandler: @escaping (UIAlertAction) -> Void) {
+                   completionHandler: ((UIAlertAction) -> Void)?) {
         let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: style)

@@ -24,7 +24,10 @@ final class BasicButtonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
-        firstExample()
+//        firstExample()
+        secondExample()
+        
+        present(OperatorViewController(), animated: false)
         // 10. Quiz
 //        label.rx.text.subscribe -> 안 되는 이유
         
@@ -64,12 +67,13 @@ final class BasicButtonViewController: UIViewController {
         view.backgroundColor = .white
         button.backgroundColor = .blue
         label.backgroundColor = .lightGray
+        "test".description
 
     }
     
     private func secondExample() {
         button.rx.tap
-            .map { "버튼을 다시 클릭했어요" }
+            .map { "버튼을 다시 클릭했어요: \(Int.random(in: 1...100))" }
             .bind(to: secondLabel.rx.text, textField.rx.text )
             .disposed(by: disposeBag)
         

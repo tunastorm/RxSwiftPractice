@@ -39,6 +39,9 @@ final class ExamObservableViewController: UIViewController {
                 print("just disposed")
             }
             .disposed(by:disposeBag)
+        
+        
+        
     }
     
     private func examOf() {
@@ -53,6 +56,7 @@ final class ExamObservableViewController: UIViewController {
             print("of disposed")
         }
         .disposed(by: disposeBag)
+        
     }
     
     private func examFrom() {
@@ -72,6 +76,7 @@ final class ExamObservableViewController: UIViewController {
     }
     
     private func examTake() {
+        
         Observable.repeatElement("Infinite Sequence")
             .take(10)
             .subscribe { value in
